@@ -46,6 +46,7 @@ The following steps were taken to balance the dataset:
 These steps helped both balance the dataset and also resizing it for further training of our model.
  
  ## Model Training
+ The model training was done on **Kaggle's TPU VM v3-8** with 330GB of RAM.
    - Trained several deep learning models with a `70:15:15` split as the `train:validation:test` set which includes:
      - AlexNet
      - DenseNet121
